@@ -2,7 +2,7 @@
 
 A small, discreet desktop controller for YouTube playback—without switching back to the YouTube tab.
 
-一個低調、輕量的 Chrome 迷你遙控器。即使 YouTube 分頁留在背景，也能控制播放、跳轉、進度及音量。
+一個低調、輕量的 Chrome 迷你遙控器，上班偷聽youtube，但又想調聲音和快進，你可以用這個。即使 YouTube 分頁留在背景，也能控制播放、跳轉、進度及音量。
 
 ## 功能
 
