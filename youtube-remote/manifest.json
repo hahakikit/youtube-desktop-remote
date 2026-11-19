@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube 桌面遙控器",
+  "version": "1.6.0",
+  "description": "不用切回 YouTube，也能播放、暫停、跳轉及調節音量。",
+  "permissions": ["scripting", "storage"],
+  "host_permissions": ["https://www.youtube.com/*", "https://music.youtube.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "打開 YouTube 遙控器"
+  },
+  "commands": {
+    "toggle-play": {
+      "suggested_key": { "default": "Ctrl+Shift+Space", "mac": "Command+Shift+Space" },
+      "description": "播放／暫停"
+    },
+    "rewind": {
+      "suggested_key": { "default": "Ctrl+Shift+Left", "mac": "Command+Shift+Left" },
+      "description": "後退 10 秒"
+    },
+    "forward": {
+      "suggested_key": { "default": "Ctrl+Shift+Right", "mac": "Command+Shift+Right" },
+      "description": "前進 10 秒"
+    }
+  }
+}
